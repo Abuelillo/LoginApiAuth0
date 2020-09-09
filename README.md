@@ -1,3 +1,19 @@
+## INFO
+
+- # Comandos
+- ng g c components/compartido/navbar -is --skipTests
+- ng g c components/home -is --skipTests
+- ng g c components/protegida -is --skipTests
+- ng g c components/precios -is --skipTests
+- npm install @auth0/auth0-spa-js --save
+- ng generate service auth
+- ng g s services/auth --skipTests
+- ng g guard services/auth --skipTests ->CanActivated
+- # WebInfo
+- https://getbootstrap.com/ (framework )
+- https://fontawesome.com/  (framework ICON)
+- https://manage.auth0.com/ (framework security login)
+
 # Authapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
